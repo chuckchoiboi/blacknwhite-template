@@ -569,11 +569,11 @@ footer {
   }
 
   .service-header {
-    top: 230%;
+    top: 240%;
   }
 
   .service-card-row {
-    top: 270%;
+    top: 285%;
     flex-direction: column;
     width: 100%;
   }
@@ -614,7 +614,7 @@ footer {
   }
 
   .contact {
-    top: 375%;
+    top: 395%;
     flex-direction: column;
     left: 50%;
   }
