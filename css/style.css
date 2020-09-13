@@ -614,9 +614,13 @@ footer {
   }
 
   .contact {
-    top: 395%;
+    top: 405%;
     flex-direction: column;
     left: 50%;
+  }
+
+  .contact-header {
+    top: 360%;
   }
 
   .contact iframe {
