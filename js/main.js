@@ -25,7 +25,17 @@ window.onscroll = function () {
       aboutHeader.className = '';
       aboutBlurb.className = '';
     }
-  } else {
+  }
+  // else if (window.innerWidth < 547) {
+  //   if (document.body.scrollTop > 500) {
+  //     aboutHeader.className = 'active';
+  //     aboutBlurb.className = 'active';
+  //   } else {
+  //     aboutHeader.className = '';
+  //     aboutBlurb.className = '';
+  //   }
+  // }
+  else {
     if (document.body.scrollTop > 400) {
       aboutHeader.className = 'active';
       aboutBlurb.className = 'active';
@@ -38,7 +48,15 @@ window.onscroll = function () {
   const serviceCard = document.querySelector('.service-card-row');
   const serviceHeader = document.querySelector('.service-header h2');
 
-  if (window.innerWidth < 992 || window.innerWidth > 1300) {
+  if (window.innerWidth < 547) {
+    if (document.body.scrollTop > 1000) {
+      serviceCard.className = 'service-card-row active';
+      serviceHeader.className = 'active';
+    } else {
+      serviceCard.className = 'service-card-row';
+      serviceHeader.className = '';
+    }
+  } else if (window.innerWidth < 992 || window.innerWidth > 1300) {
     if (document.body.scrollTop > 1200) {
       serviceCard.className = 'service-card-row active';
       serviceHeader.className = 'active';
@@ -59,7 +77,15 @@ window.onscroll = function () {
   const contactHeader = document.querySelector('.contact-header h2');
   const contactContent = document.querySelector('.contact');
 
-  if (window.innerWidth < 992 || window.innerWidth > 1300) {
+  if (window.innerWidth < 547) {
+    if (document.body.scrollTop > 1600) {
+      contactHeader.className = 'active';
+      contactContent.className = 'contact active';
+    } else {
+      contactHeader.className = '';
+      contactContent.className = 'contact';
+    }
+  } else if (window.innerWidth < 992 || window.innerWidth > 1300) {
     if (document.body.scrollTop > 2100) {
       contactHeader.className = 'active';
       contactContent.className = 'contact active';

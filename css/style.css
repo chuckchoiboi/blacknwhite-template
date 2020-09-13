@@ -521,14 +521,14 @@ footer {
   }
 
   .heading {
-    top: 40%;
+    top: 50%;
     width: 100%;
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .sub-heading {
-    top: 60%;
+    top: 70%;
     width: 100%;
     margin-left: 10px;
     margin-right: 10px;
@@ -539,7 +539,7 @@ footer {
   /****** about content **************/
 
   .about {
-    top: 150%;
+    top: 160%;
     width: 100%;
   }
 
@@ -569,11 +569,11 @@ footer {
   }
 
   .service-header {
-    top: 220%;
+    top: 230%;
   }
 
   .service-card-row {
-    top: 260%;
+    top: 270%;
     flex-direction: column;
     width: 100%;
   }
@@ -614,7 +614,7 @@ footer {
   }
 
   .contact {
-    top: 365%;
+    top: 375%;
     flex-direction: column;
     left: 50%;
   }
