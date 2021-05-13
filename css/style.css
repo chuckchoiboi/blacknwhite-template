@@ -539,7 +539,7 @@ footer {
   /****** about content **************/
 
   .about {
-    top: 160%;
+    top: 150%;
     width: 100%;
   }
 
@@ -550,7 +550,7 @@ footer {
   }
 
   .about p {
-    font-size: 23px;
+    font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 40px;
@@ -569,11 +569,11 @@ footer {
   }
 
   .service-header {
-    top: 240%;
+    top: 220%;
   }
 
   .service-card-row {
-    top: 285%;
+    top: 260%;
     flex-direction: column;
     width: 100%;
   }
@@ -614,13 +614,13 @@ footer {
   }
 
   .contact {
-    top: 405%;
+    top: 365%;
     flex-direction: column;
     left: 50%;
   }
 
   .contact-header {
-    top: 360%;
+    top: 320%;
   }
 
   .contact iframe {
